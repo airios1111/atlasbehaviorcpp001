@@ -1,0 +1,19 @@
+# build trees
+build/
+build-*/
+cmake-build-*/
+out/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.vs/
+CMakeUserPresets.json
+
+# atlas-behavior-map generated output
+dist/*
+!dist/.gitkeep
+reports/*
+!reports/.gitkeep
+examples/tutorial/out/
